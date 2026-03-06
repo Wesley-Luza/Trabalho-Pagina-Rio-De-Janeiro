@@ -6,12 +6,14 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     
-    <body>
-        <div class="conteiner">
-        
+    <!-- Cabeçalho da página -->
+
+    <header>
+
         <!-- Fazendo a introdução do site -->
+
         <section class="containerfirst">
-        <div class="texto">
+        <div id="inicio" class="texto">
         <h1>VAMOS CONHECER A CIDADE MARAVILHOSA?</h1>
         <h2>Rio de Janeiro, 2026.</h2>
         </div>
@@ -21,10 +23,31 @@
         </div>
         </section>
 
+    <!-- Barra de Navegação-->
+
+    <nav>
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#pao">Pão de Açúcar</a></li>
+        <li><a href="#cristo">Cristo Redentor</a></li>
+        <li><a href="#forte">Forte de Copacabana</a></li>
+        <li><a href="#copa">Copacabana</a></li>
+        <li><a href="#ipanema">Ipanema</a></li>
+    </ul>
+    </nav>
+    </header>
+    
+    <!-- Corpo do Site-->
+
+    <body>
+        <div class="conteiner">
+
         <!-- Colocando os lugares do Rio de Janeiro -->
+        
+        <section class="places">
 
         <!-- Pão de Açúcar -->
-        <div class='place'>
+        <article id="pao">
         <h3>O Glamuroso Pão de Açúcar</h3>
         <p>O Pão de Açúcar é um dos cartões-postais mais famosos do Brasil e um dos 
         pontos turísticos mais visitados do mundo. Localizado no bairro da Urca, na cidade do 
@@ -42,10 +65,10 @@
         <img src="images/pao-de-acucar.jpeg">
         <img src="images/24-20-04-08-59.jpg">
         <div class='clear'></div>
-        </div>
+        </article>
 
         <!-- Cristo Redentor -->
-        <div class='place'>
+        <article id="cristo">
         <h3>O Monumento do Cristo Redentor</h3>
         <p>O Cristo Redentor é um dos monumentos mais famosos do mundo e o maior símbolo 
         do Rio de Janeiro. Localizado no topo do Morro do Corcovado, a cerca de 710 metros 
@@ -63,10 +86,10 @@
         <img src="images/-cristo-_0.jpeg">
         <img src="images/wendellwell-pintura-paisaje-vista-aerea-do-cristo-redentor-e-corcovado-no-rio-de-janeiro-2.jpeg">
         <div class='clear'></div>
-        </div>
+        </article>
 
         <!-- Forte de Copacabana -->
-        <div class='place'>
+        <article id="forte">
         <h3>O Antigo Forte de Copacabana</h3>
         <p>O Forte de Copacabana é um dos pontos históricos e turísticos mais importantes do Rio 
         de Janeiro. Localizado no extremo sul da Praia de Copacabana, ele foi inaugurado em 1914 
@@ -82,10 +105,10 @@
         <img src="images/Forte_de_Copacabana2.jpeg">
         <img src="images/Forte_de_Copacabana3.jpeg">
         <div class='clear'></div>
-        </div>
+        </article>
 
         <!-- Praia de Copacabana -->
-        <div class='place'>
+        <article id="copa">
         <h3>A Bela Praia de Copacabana</h3>
         <p>A Praia de Copacabana é uma das praias mais famosas do mundo e um dos maiores símbolos
         do Rio de Janeiro. Localizada na zona sul da cidade, ela possui aproximadamente 4 km de 
@@ -101,10 +124,10 @@
         <img src="images/praiacopa2.jpeg">
         <img src="images/praiacopa3.jpeg">
         <div class='clear'></div>
-        </div>
+        </article>
 
         <!-- Praia de Ipanema -->
-        <div class='place'>
+        <article id="ipanema">
         <h3>A Calorosa Praia de Ipanema</h3>
         <p>A Praia de Ipanema é uma das praias mais famosas e charmosas do Rio de Janeiro, 
         localizada na zona sul da cidade, ao lado de Copacabana. Com areia clara e mar 
@@ -121,7 +144,8 @@
         <img src="images/ipanema2.jpeg">
         <img src="images/ipanema3.jpeg">
         <div class='clear'></div>
-        </div>
+        </article>
+        </section>
         </div>
     </body>
     
