@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo o Rio de Janeiro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <section id="inicio" class="containerfirst">
+            <section class="texto">
+                <h1>VAMOS CONHECER A CIDADE MARAVILHOSA?</h1>
+                <h2>Rio de Janeiro, 2026.</h2>
+                <p>Descubra alguns dos pontos turísticos mais famosos do Rio de Janeiro e encante-se com suas paisagens, cultura e história.</p>
+            </section>
+
+            <figure class="imagemfirst">
+                <img src="images/cristoredentorinicial.jpeg" alt="Cristo Redentor visto ao amanhecer">
+            </figure>
+        </section>
+
+        <!-- Navegação -->
+        <nav>
+            <ul>
+                <li><a href="index.html#inicio">Início</a></li>
+                <li><a href="index.html#pao">Pão de Açúcar</a></li>
+                <li><a href="index.html#cristo">Cristo Redentor</a></li>
+                <li><a href="index.html#forte">Forte de Copacabana</a></li>
+                <li><a href="index.html#copa">Copacabana</a></li>
+                <li><a href="index.html#ipanema">Ipanema</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="tabela.html">Tabela</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+
+    <h2> Mande Suas Dúvidas Para Que Possamos Te Ajudar!</h2>
+
+    <p>Você pode entrar em contato conosco para tirar dúvidas, solicitar informações adicionais ou 
+    compartilhar suas experiências sobre o Rio de Janeiro. Preencha o formulário abaixo e entraremos 
+    em contato com você o mais breve possível.</p>
+
+    <form action="/login.php" method="post">
+    
+    <p><strong> PREENCHA OS CAMPOS ABAIXO:</strong></p>
+    <p>
+    <label for="nome">Informe Seu Nome:</label>
+    <input type="text" name="nome" id="nome">
+    </p>
+    <p>
+    <label for="telefone">Informe Seu Telefone:</label>
+    <input type="tel" name="telefone" id="telefone">
+    </p>
+    <p>
+    <label for="email">Informe seu Email:</label>
+    <input type="email" name="email" id="email">
+    </p>
+    <p>
+    <label for="senha">Crie uma senha:</label>
+    <input type="password" name="senha" id="senha">
+    </p>
+    <p>
+    <label for="nome">Selecione de Que Estado Você É:</label>
+    <select name="cidades">
+    <option value="rs">Rio Grande do Sul</option>
+    <option value="sc">Santa Catarina</option>
+    <option value="pr">Paraná</option>
+    <option value="bsb">Brasília</option>
+    <option value="rj">Rio de Janeiro</option>
+    <option value="sp">São Paulo</option>
+    </select>
+    </p>
+
+    <input type="submit" name="enviar" value="Enviar Dados">
+    </p>
+    </form>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 - Página desenvolvida para atividade acadêmica sobre HTML e CSS.</p>
+        <p><a href="#inicio">Voltar ao topo</a></p>
+    </footer>
+
+</body>
+</html>
