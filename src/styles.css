@@ -176,5 +176,20 @@ form {
 }
 
 input {
-    padding: 2px 2px;
+    padding: 3px 3px;
+    display: flex;
+    margin-bottom: auto;
+    width: 30%;
+}
+
+input[type="submit"] {
+    width: 10%;
+    padding: 6px 6px;
+    margin-top: 55px;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
