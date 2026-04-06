@@ -2,6 +2,7 @@ body {
     background-color: #dee6f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+    color: #212529;
     text-align: left;
     margin: 0;
     padding: 0;
@@ -38,11 +39,14 @@ p {
     color: darkblue;
     font-size: 40px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .texto h2 {
-    color: darkblue;
+    color: #00008b;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .imagemfirst img {
@@ -77,15 +81,16 @@ article img {
 
 article h3 {
     font-size: 26px;
-    color: rgb(0, 0, 0);
+    color: #052c03;
     margin-bottom: 10px;
 }
 
 article h4 {
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: #052c03;
     margin-top: 15px;
     margin-bottom: 10px;
+    font-style: italic;
 }
 
 article ul,
@@ -121,27 +126,32 @@ nav li {
 
 nav a {
     display: block;
-    padding: 15px 20px;
+    padding: 15px 12px;
     color: darkblue;
     text-decoration: none;
     border-bottom: 2px solid rgb(5, 4, 39);
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
     transition: 0.3s;
 }
 
 nav a:hover {
     background-color: #acd1a8;
     border-radius: 8px;
+    color: #000;
 }
 
 a {
     color: darkblue;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 a:hover {
     color: #003366;
+    text-decoration: none;
 }
 
 footer {
@@ -149,24 +159,32 @@ footer {
     padding: 20px;
     background-color: #c9d7e8;
     margin-top: 30px;
+    font-size: 14px;
 }
 
 table {
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: #acd1a8;
+    background-color: #ffffff;
     color: #000;
 }
 
 th, td {
     padding: 15px 25px;
     text-align: center;
+    border: 1px solid #cccccc;
+}
+
+th {
+    background-color: #003366;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 form {
     margin: 20px auto;
     background-color: #acd1a8;
-    color: #000;
+    color: #052c03;
     border: 1px solid #0a4608;
     border-color: #acd1a8;
     margin-bottom: 20px;
@@ -175,17 +193,28 @@ form {
     overflow: hidden;
 }
 
+label {
+    font-weight: bold;
+    color: #052c03;
+}
+
 input {
     padding: 3px 3px;
     display: flex;
     margin-bottom: auto;
     width: 30%;
+    font-family: inherit;
 }
 
 input[type="submit"] {
-    width: 10%;
-    padding: 6px 6px;
-    margin-top: 55px;
+    width: auto;
+    padding: 6px 15px;
+    margin-top: 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 video {
