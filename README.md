@@ -1,3 +1,8 @@
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![FRONTEND](https://img.shields.io/badge/FRONTEND-111111?style=for-the-badge)
+![STATUS](https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-39D353?style=for-the-badge)
+
 # 🌆 Trabalho Página Rio de Janeiro
 
 Este repositório contém um projeto acadêmico desenvolvido para a disciplina de **Desenvolvimento Web I**, com o objetivo de criar uma página informativa sobre um lugar do mundo utilizando **HTML5** e **CSS3**.
