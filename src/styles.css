@@ -51,7 +51,8 @@ font-weight: 400;
 }
 
 .imagemfirst img {
-width: 600px;
+width: 100%;
+max-width: 600px;
 height: auto;
 border-radius: 12px;
 border: 5px solid #ffffff;
@@ -396,4 +397,151 @@ main::after {
 .aside-box strong {
     color: #00008b;
     font-weight: 600;
+}
+
+/* Responsividade para tablet */
+@media (max-width: 1024px) {
+    .containerfirst {
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .texto h1 {
+        font-size: 32px;
+    }
+    
+    .texto {
+        max-width: 100%;
+    }
+
+    .abacomentario {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .containerfirst {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .imagemfirst img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .container-main {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .places {
+        width: 100%;
+    }
+
+    .places img {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    nav a {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    /* Melhorar responsividade da tabela */
+    main {
+        overflow-x: auto;
+    }
+    
+    table {
+        font-size: 12px;
+        margin: 20px 0;
+        min-width: 100%;
+    }
+    
+    th, td {
+        padding: 6px;
+        font-size: 10px;
+        white-space: wrap;
+    }
+    
+    .texto h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    
+    .texto h2 {
+        font-size: 16px;
+    }
+    
+    article h3 {
+        font-size: 20px;
+    }
+    
+    article img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+    
+    p.comentario {
+        width: 100%;
+        float: none;
+        margin: 10px auto;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
 }
