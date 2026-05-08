@@ -3,199 +3,77 @@
 ![FRONTEND](https://img.shields.io/badge/FRONTEND-111111?style=for-the-badge)
 ![STATUS](https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-39D353?style=for-the-badge)
 
-# 🌆 Trabalho Página Rio de Janeiro
+# 🌆 Projeto Web: Conhecendo o Rio de Janeiro
 
-Este repositório contém um projeto acadêmico desenvolvido para a disciplina de **Desenvolvimento Web I**, com o objetivo de criar uma página informativa sobre um lugar do mundo utilizando **HTML5** e **CSS3**.
+Este repositório contém um projeto acadêmico completo sobre a cidade do **Rio de Janeiro**, desenvolvido para praticar o desenvolvimento de interfaces web modernas, semânticas e responsivas.
 
-O tema escolhido foi a cidade do **Rio de Janeiro**, apresentando alguns dos seus principais pontos turísticos, informações complementares, tabela de dados, formulário de contato e uma página com vídeo explicativo.
-
----
-
-## 📌 Sobre o projeto
-
-O projeto foi criado como atividade da disciplina e tem como proposta praticar os fundamentos de desenvolvimento web estático, aplicando estruturação semântica com HTML e estilização com CSS.
-
-A página foi desenvolvida com foco em:
-
-- organização de conteúdo;
-- navegação entre páginas;
-- uso de seções e links internos;
-- criação de tabelas;
-- formulários com validação;
-- incorporação de mídia (vídeo);
-- estilização visual com CSS.
+O site serve como um guia turístico interativo, apresentando marcos históricos, dados logísticos, suporte multimídia e uma seção de depoimentos de usuários.
 
 ---
 
-## 🗂️ Estrutura do projeto
+## 📌 Novidades e Atualizações
 
-O projeto é composto por múltiplas páginas HTML interligadas:
+Além da estrutura básica de um site estático, esta versão do projeto inclui:
 
-- **`index.html`** → página principal com os pontos turísticos do Rio de Janeiro  
-- **`contato.html`** → formulário de contato e roteiro do visitante  
-- **`tabela.html`** → tabela com informações complementares dos locais  
-- **`video.html`** → página com vídeo explicativo sobre a cidade  
-- **`styles.css`** → arquivo de estilização global do projeto  
-- **`images/`** → pasta com imagens utilizadas no site  
+- **Sistema de Feedbacks:** Uma página dedicada (`comentarios.html`) que exibe avaliações de usuários com sistema de estrelas e layouts diferenciados.
+- **Responsividade Avançada:** Implementação de Media Queries no `styles.css` para garantir que o site seja legível em smartphones e tablets.
+- **Formulário Inteligente:** O formulário de contato agora inclui seletores de estado (UF), validação de idade (min/max) e campos específicos para planejamento de roteiro.
+- **Barra Lateral Informativa:** Uso de `<aside>` na página principal para exibir dicas de segurança, curiosidades e contatos úteis.
 
 ---
 
-## 🏖️ Conteúdo apresentado
+## 🗂️ Estrutura do Projeto
 
-A página principal apresenta informações sobre alguns dos pontos turísticos mais famosos do Rio de Janeiro:
+O projeto foi expandido e agora conta com a seguinte organização:
 
-- **Pão de Açúcar**
-- **Cristo Redentor**
-- **Forte de Copacabana**
-- **Praia de Copacabana**
-- **Praia de Ipanema**
-
-Além disso, o projeto também inclui:
-
-- uma **tabela informativa** com temperatura média, distância do aeroporto e localização;
-- uma **página de contato** com formulário;
-- uma **página de vídeo** para complementar a experiência do usuário.
+- **`index.html`** → Portal principal com âncoras para os pontos turísticos e barra lateral de utilidades.
+- **`comentarios.html`** → Mural de feedbacks com depoimentos e avaliações dos visitantes.
+- **`contato.html`** → Formulário completo com validação via `regex` (pattern) para telefone e e-mail.
+- **`tabela.html`** → Tabela comparativa com distâncias, temperaturas e endereços dos locais.
+- **`video.html`** → Player de vídeo nativo para auxílio no roteiro turístico.
+- **`styles.css`** → Arquivo central de estilo, utilizando Flexbox e design responsivo.
 
 ---
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologias e Conceitos Aplicados
 
-Neste projeto foram utilizados:
+### HTML5 (Semântica e Estrutura)
+- **Multimídia:** Uso da tag `<video>` com controles nativos.
+- **Formulários:** Implementação de `select`, `option`, e tipos de input variados (`date`, `number`, `tel`, `email`).
+- **Navegação:** Menu global presente em todas as páginas para garantir a usabilidade.
 
-- **HTML5**
-- **CSS3**
-
----
-
-## 📚 Conceitos que aprendi e apliquei
-
-Durante o desenvolvimento deste trabalho, pratiquei e aprendi diversos conceitos importantes de HTML e CSS, como:
-
-### HTML
-- Estrutura básica de uma página HTML
-- Uso de tags semânticas:
-  - `<header>`
-  - `<main>`
-  - `<section>`
-  - `<article>`
-  - `<nav>`
-  - `<footer>`
-  - `<figure>`
-- Criação de listas ordenadas e não ordenadas:
-  - `<ul>`
-  - `<ol>`
-  - `<li>`
-- Criação de links internos e externos com `<a>`
-- Navegação entre páginas HTML
-- Uso de imagens com `<img>`
-- Inserção de vídeo com `<video>`
-- Criação de tabelas com:
-  - `<table>`
-  - `<tr>`
-  - `<th>`
-  - `<td>`
-- Criação de formulários com:
-  - `<form>`
-  - `<label>`
-  - `<input>`
-  - `<select>`
-  - `<option>`
-- Validação de campos com:
-  - `required`
-  - `pattern`
-  - `min`
-  - `max`
-  - `placeholder`
-
-### CSS
-- Estilização global da página
-- Alteração de:
-  - cores
-  - fontes
-  - espaçamentos
-  - bordas
-  - arredondamento com `border-radius`
-- Uso de **Flexbox** para alinhamento de elementos
-- Centralização de conteúdo
-- Estilização de:
-  - menu de navegação
-  - artigos
-  - tabela
-  - formulário
-  - vídeo
-  - rodapé
-- Uso de `hover` em links
-- Uso de `position: sticky` no menu
-- Controle de largura com `width`
-- Uso de `margin`, `padding` e `box-sizing`
-- Organização visual das imagens com `object-fit`
+### CSS3 (Design e Experiência do Usuário)
+- **Flexbox:** Utilizado para alinhar o cabeçalho, os cards de conteúdo e a estrutura principal.
+- **Sticky Navigation:** Menu que permanece fixo no topo durante a rolagem.
+- **Media Queries:** Adaptação do layout para telas menores (ajuste de colunas para empilhamento vertical).
+- **Estilização de Tabelas:** Uso de bordas colapsadas e preenchimento (padding) para melhor leitura de dados.
+- **Pseudo-classes:** Uso de `:hover` para feedback visual em botões e links.
 
 ---
 
-## 🎯 Objetivo acadêmico
+## 📱 Responsividade
 
-Este projeto foi desenvolvido com a finalidade de exercitar a criação de um site estático e reforçar os conhecimentos iniciais em desenvolvimento front-end.
-
-A proposta permitiu colocar em prática:
-
-- estruturação correta de páginas web;
-- separação entre conteúdo (HTML) e estilo (CSS);
-- organização de arquivos;
-- construção de navegação entre páginas;
-- validação básica de formulários;
-- apresentação visual mais agradável e funcional.
-
----
-
-## 📷 Destaques visuais do projeto
-
-O site possui:
-
-- cabeçalho com imagem de destaque do Cristo Redentor;
-- menu de navegação fixo no topo;
-- seções organizadas para cada ponto turístico;
-- galeria de imagens em cada local;
-- tabela centralizada com informações úteis;
-- formulário estilizado para contato;
-- página de vídeo explicativo.
+O projeto foi testado para diferentes resoluções:
+- **Desktop:** Exibição lado a lado (texto e imagem) e barra lateral à direita.
+- **Mobile:** Menu adaptado, remoção de larguras fixas e imagens que ocupam 100% da largura da tela para evitar rolagem horizontal.
 
 ---
 
 ## 🚀 Como executar o projeto
 
-Para visualizar o projeto localmente:
+1. Baixe ou clone o repositório.
+2. Certifique-se de que a pasta `images/` contém o vídeo `videoplayback.mp4` (não incluido neste repositório, pois excede o limite de MBs) e as imagens dos pontos turísticos.
+3. Abra o arquivo `index.html` em qualquer navegador moderno.
 
-1. Clone este repositório:
-```bash
-git clone <URL_DO_REPOSITORIO>
-```
-
-2. Acesse a pasta do projeto:
-```bash
-cd Trabalho-Pagina-Rio-De-Janeiro
-```
-
-3. Abra o arquivo index.html no navegador.
-
-## ⚠️ Observação importante
-
-O projeto contém uma página com vídeo local (video.html).
-Caso o arquivo de vídeo seja muito grande (acima de 100MB), ele pode não ser aceito em um push normal para o GitHub.
-
-Se necessário, recomenda-se:
-
-compactar o vídeo;
-substituir por um vídeo menor;
-ou hospedar o vídeo externamente.
+---
 
 ## 👨‍🎓 Autor
 
-Projeto desenvolvido por Wesley Luza como atividade acadêmica da disciplina de Desenvolvimento Web I.
+Projeto desenvolvido por **Wesley Luza** como atividade acadêmica em 2026.
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins educacionais e acadêmicos.
-
+Este projeto é de caráter educacional e acadêmico.
 
 
 
